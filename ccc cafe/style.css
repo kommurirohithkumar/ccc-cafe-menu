@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000; /* only outer background, images stay original */
+  overflow-x: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+}
